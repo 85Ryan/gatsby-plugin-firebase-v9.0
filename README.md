@@ -6,13 +6,13 @@ Provides support for Firebase JS SDK 9
 
 use npm:
 
-```javascript
+```
 npm install firebase gatsby-plugin-firebase-v9.0
 ```
 
 or use yarn:
 
-```javascript
+```
 yarn add firebase gatsby-plugin-firebase-v9.0
 ```
 
@@ -66,7 +66,7 @@ const Component = ({data}) => {
       });
     }, [data]);
   return
-  <div>{data ? data : ``} views</div>
+  <div>{data ? data : ``}</div>
 }
 
 export default Component;
