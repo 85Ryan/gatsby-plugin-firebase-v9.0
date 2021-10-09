@@ -1,0 +1,20 @@
+{
+  "name": "gatsby-plugin-firebase-v9.0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/85Ryan/gatsby-plugin-firebase-v9.0.git",
+  "author": "Ryan <iii.ryan@outlook.com>",
+  "license": "MIT",
+  "keywords": [
+    "firebase",
+    "plugin",
+    "gatsby",
+    "gatsby-plugin"
+  ],
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  },
+  "peerDependencies": {
+    "firebase": ">=9.x"
+  }
+}
