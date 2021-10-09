@@ -55,18 +55,18 @@ import React, { useEffect, useState } from 'react';
 import app from 'gatsby-plugin-firebase-v9.0'
 import { getDatabase, ref, onValue } from "firebase/database";
 
-const Component = ({data}) => { 
-  const [data, setData] = useState('');
+const Component = ({postID}) => { 
+  const [dataVaule, setValue] = useState('');
   useEffect(() => {
       const database = getDatabase(app);
-      const dataRef = ref(db, 'data/' + data + '/dataCount');
+      const dataRef = ref(db, 'data/' + postID + '/dataValue');
       onValue(dataRef, (snapshot) => {
         const data = snapshot.val();
-        setData(data);
+        setValue(data);
       });
-    }, [data]);
+    }, [postID]);
   return
-  <div>{data ? data : ``}</div>
+  <div>{dataVaule ? dataVaule : ``}</div>
 }
 
 export default Component;
