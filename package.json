@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-firebase-v9.0",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "repository": "https://github.com/85Ryan/gatsby-plugin-firebase-v9.0.git",
   "author": "Ryan <iii.ryan@outlook.com>",
