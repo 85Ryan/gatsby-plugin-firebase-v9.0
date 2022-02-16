@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/85Ryan/gatsby-plugin-firebase-v9.0/compare/v1.0.2...v1.0.3) (2022-02-16)
+
+
+### Bug Fixes
+
+* :bug: fix building warning ([42a26aa](https://github.com/85Ryan/gatsby-plugin-firebase-v9.0/commit/42a26aa73f171fe14c14b2df79ce4c73c981753d)), closes [#1](https://github.com/85Ryan/gatsby-plugin-firebase-v9.0/issues/1)
+
 ### [1.0.2](https://github.com/85Ryan/gatsby-plugin-firebase-v9.0/compare/v1.0.1...v1.0.2) (2021-10-10)
 
 
